@@ -1,6 +1,6 @@
 {
   "watch": ["server"],
-  "exec": "ts-node --esm server/index.ts",
+  "exec": "etsc && node dist/server/index.js",
   "ext": "ts",
   "legacyWatch": true
 }
