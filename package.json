@@ -1,11 +1,11 @@
 {
   "name": "handson-loki",
   "packageManager": "yarn@4.1.0",
-  "main": "index.tsx",
+  "main": "dist/pages/index.js",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "ts-node --esm server/index.ts"
+    "start": "node dist/server/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
