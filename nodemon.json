@@ -1,0 +1,6 @@
+{
+  "watch": ["server"],
+  "exec": "ts-node --esm server/index.ts",
+  "ext": "ts",
+  "legacyWatch": true
+}
